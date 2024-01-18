@@ -28,7 +28,6 @@
       {{- partial "scroll-to-top.html" . -}}
       {{ end }}
     </main>
-    {{ partialCached "analytics.html" . }}
     {{- partial "footer.html" . -}}
     {{ if .Site.Params.enableSearch | default false }}
     {{- partial "search.html" . -}}
